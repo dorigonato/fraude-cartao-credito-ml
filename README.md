@@ -29,10 +29,12 @@ Trabalhei com o dataset clássico **Credit Card Fraud Detection** (284.807 trans
 
 ## 📊 Dataset
 
-- **Fonte**: [Kaggle / TensorFlow](https://storage.googleapis.com/download.tensorflow.org/data/creditcard.csv)
-- **Tamanho**: 284.807 transações
-- **Período**: 2 dias (setembro de 2013)
-- **Features**: 28 variáveis PCA (V1 a V28) + `Time` + `Amount` + `Class` (0 = normal, 1 = fraude)
+- **Nome**: Credit Card Fraud Detection
+- **Tamanho**: 284.807 transações (2 dias de setembro de 2013)
+- **Fonte Original**: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- **URL utilizada**: [TensorFlow Hosted](https://storage.googleapis.com/download.tensorflow.org/data/creditcard.csv)
+- **Características**: 28 variáveis transformadas por PCA (V1–V28), `Time`, `Amount` e `Class` (0 = normal, 1 = fraude)
+- **Desbalanceamento**: Apenas **492 fraudes** (0,172%)
 
 ---
 
